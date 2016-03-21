@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.uniquedu.myxml.MainActivity">
+
+    <Button
+        android:id="@+id/button_dom"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="使用DOM的方式解析xml文件" />
+
+    <Button
+        android:id="@+id/button_sax"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="使用SAX的方式解析xml文件" />
+    <Button
+        android:id="@+id/button_pull"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="使用PULL的方式解析xml文件" />
+</LinearLayout>
