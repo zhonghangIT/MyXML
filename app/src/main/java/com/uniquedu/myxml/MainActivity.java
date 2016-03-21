@@ -30,6 +30,7 @@ import javax.xml.parsers.SAXParser;
 import javax.xml.parsers.SAXParserFactory;
 
 public class MainActivity extends AppCompatActivity {
+    /**这个是DOM解析的按钮*/
     private Button mButtomDOM;
     private Button mButtomSAX;
     private Button mButtonPULL;
