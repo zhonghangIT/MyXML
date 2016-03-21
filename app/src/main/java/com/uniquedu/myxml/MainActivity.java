@@ -32,6 +32,7 @@ import javax.xml.parsers.SAXParserFactory;
 public class MainActivity extends AppCompatActivity {
     /**这个是DOM解析的按钮*/
     private Button mButtomDOM;
+    /**这是一个SAX解析的按钮*/
     private Button mButtomSAX;
     private Button mButtonPULL;
     @Override
