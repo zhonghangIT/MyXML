@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.uniquedu.myjson.MainActivity">
+
+    <Button
+        android:id="@+id/button_parsejson_android"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="原生解析json" />
+
+    <Button
+        android:id="@+id/button_toJson_andorid"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="原生生成json" />
+
+    <Button
+        android:id="@+id/button_parsejosn_gson"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="使用GSON解析JSON" />
+    <Button
+        android:id="@+id/button_parsejosnarray_gson"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="使用GSON解析JSON集合" />
+    <Button
+        android:id="@+id/button_tojson_gson"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="使用GSON生成JSON" />
+    <Button
+        android:id="@+id/button_parsejson_fast"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="使用FASTJSON解析JSON" />
+
+    <Button
+        android:id="@+id/button_tojson_fast"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="使用FASTJSON生成JSON" />
+
+</LinearLayout>

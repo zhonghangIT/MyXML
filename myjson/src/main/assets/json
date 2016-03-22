@@ -1,0 +1,29 @@
+{
+	"clazzName": "一年级一班",
+	"clazzNum": "20160511",
+	"teacher":{
+		"name":"李老师",
+		"major":"数学",
+		"position":"班主任"
+	},
+	"students": [{
+		"age": 20,
+		"name": "张三",
+		"sex": "男"
+	},
+	{
+		"age": 20,
+		"name": "李四",
+		"sex": "男"
+	},
+	{
+		"age": 20,
+		"name": "王五",
+		"sex": "女"
+	},
+	{
+		"age": 20,
+		"name": "赵六",
+		"sex": "男"
+	}]
+}
